@@ -1,0 +1,60 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+}
+
+h1 {
+    color: white;
+}
+
+h2{
+    text-align: center;
+    color: lightgray;
+}
+
+a{
+    color: darkblue;
+}
+a:hover{
+    color:red;
+}
+
+header {
+    background-color: black;
+    padding: 8px;
+    text-align: center;
+    font-size: 25px;
+}
+.nav-bar {
+    display: flex; 
+    background-color: #594D5B;
+    padding: 15px;
+    border: 2px solid gray;
+    justify-content: space-around;
+    gap: 10%;
+}
+
+section{
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 250px;
+}
+
+article{
+    margin-left: 50px;
+    margin-right: 250px;
+    margin-bottom: 60px;
+}
+footer{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
